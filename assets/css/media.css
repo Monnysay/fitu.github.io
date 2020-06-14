@@ -1,0 +1,227 @@
+@media screen and (max-width:1200px) {
+    .main-container {
+        border: 3px dashed rgba(0, 0, 0, 0);
+        background-color: #fff;
+        padding: 10px 20px;
+        margin-bottom: 0;
+        margin-top: 0
+    }
+}
+
+@media screen and (max-width:992px) {
+    .header__logo {
+        width: 300px
+    }
+
+    .header__nav-list li {
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.2
+    }
+
+    .slider__title {
+        top: 30px;
+        font-size: 38px
+    }
+
+    .slider__descr {
+        bottom: 30px;
+        font-size: 26px;
+        width: 100%;
+        padding: 20px 30px
+    }
+
+    .slick-dots {
+        bottom: 15px
+    }
+
+    .block-info {
+        margin-bottom: 50px
+    }
+
+    .block-info__title {
+        font-size: 30px
+    }
+
+    .block-info__list,
+    .block-info__text {
+        font-size: 20px
+    }
+
+    .block-info__table tr {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        font-size: 22px
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .section {
+        padding: 40px 0
+    }
+
+    .menu-button {
+        display: block;
+        margin-left: auto
+    }
+
+    .header__nav {
+        display: none;
+        position: absolute;
+        padding: 10px 0;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background-color: #00b5cf;
+        z-index: 5
+    }
+
+    .header__nav-list {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .header__nav-list li {
+        margin: 5px
+    }
+
+    .slider__title {
+        font-size: 34px
+    }
+
+    .slider__descr {
+        font-size: 24px;
+        width: 100%;
+        padding: 20px 30px
+    }
+
+    .block-info {
+        margin-bottom: 40px
+    }
+
+    .block-info__title {
+        font-size: 28px
+    }
+
+    .block-info__list,
+    .block-info__text {
+        font-size: 18px
+    }
+
+    .block-info__table tr {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width:576px) {
+    body {
+        min-width: 320px
+    }
+
+    .header__logo {
+        width: 250px
+    }
+
+    .header__nav-list {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        padding-left: 20px
+    }
+
+    .menu-button {
+        width: 40px;
+        height: 20px
+    }
+
+    .menu-button div {
+        height: 3px
+    }
+
+    .slider__item,
+    .slider__item img {
+        height: 550px
+    }
+
+    .slider__title {
+        top: 30px;
+        font-size: 30px;
+        width: 100%
+    }
+
+    .slider__descr {
+        bottom: 30px;
+        font-size: 20px;
+        width: 100%;
+        padding: 20px 30px
+    }
+
+    .block-info {
+        margin-bottom: 30px
+    }
+
+    .block-info__title {
+        font-size: 26px
+    }
+
+    .block-info__list,
+    .block-info__text {
+        font-size: 16px
+    }
+
+    .block-info__table tr {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        font-size: 18px
+    }
+
+    .social-link li img,
+    .social-link li svg {
+        width: 35px;
+        height: 35px;
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+
+    .footer__wrap {
+        grid-template-columns: 1fr
+    }
+
+    .footer__site-nav {
+        justify-self: left;
+        border-top: 1px solid #fff;
+        padding-top: 10px
+    }
+}
+
+@media screen and (max-width:340px) {
+    .header__logo {
+        width: 200px
+    }
+}
