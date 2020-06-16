@@ -125,6 +125,15 @@
         flex-direction: column;
         font-size: 20px
     }
+
+    .footer__wrap {
+        grid-template-columns: 1fr;
+        justify-content: start;
+    }
+
+    .footer__site-nav {
+        justify-self: start;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -207,10 +216,6 @@
         height: 35px;
         -o-object-fit: cover;
         object-fit: cover
-    }
-
-    .footer__wrap {
-        grid-template-columns: 1fr
     }
 
     .footer__site-nav {
